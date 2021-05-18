@@ -30,13 +30,21 @@ def MenuLab9():
 
 # Se define ciclo del menu
 while OpcionMenu:
+
     MenuLab9()
     IngresoUsuario = input("Por favor, ingrese su accion: ")
+
+    #Se define condiciones de inicio:
     if (IngresoUsuario == "Y"):
         print("El programa iniciara a funncionar...")
         print("El corrimiento de bits ha iniciado: ")
 
+    #Se definen condiciones de salida:
     if(IngresoUsuario == "Q"):
         print("Gracias por utilizar el programa.")
         print("El corrimiento de bits inactivos se ha detenido")
         OpcionMenu = False
+        
+    #Se definen condiciones en caso se ingrese algo erroneo
+    else:
+        print("Cuidado... Ese comando no existe...")

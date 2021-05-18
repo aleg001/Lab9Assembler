@@ -16,11 +16,11 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 
 #Se configura para cada salida de led
-GPIO.setup(3, GPIO.out)
-GPIO.setup(5, GPIO.out)
-GPIO.setup(7, GPIO.out)
-GPIO.setup(11, GPIO.out)
-GPIO.setup(13, GPIO.out)
+GPIO.setup(3, GPIO.OUT)
+GPIO.setup(5, GPIO.OUT)
+GPIO.setup(7, GPIO.OUT)
+GPIO.setup(11, GPIO.OUT)
+GPIO.setup(13, GPIO.OUT)
 
 #Se define variable para menú:
 IngresoUsuario = " "

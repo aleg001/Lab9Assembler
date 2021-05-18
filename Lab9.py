@@ -11,6 +11,10 @@
 import RPi.GPIO as GPIO
 import time 
 
+#Se define los modos para la GPIO
+#GPIO.setmode(GPIO.BCM)
+#GPIO.setup(PONER NUMERO, GPIO.out)
+
 #Se define variable para menú:
 
 IngresoUsuario = " "
